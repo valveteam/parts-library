@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BH1750
+D Double JK, Set
+K TTL JK
+$ENDCMP
+#
 $CMP STR05
 D Linear Regulator +5V
 K POWER REGUL
