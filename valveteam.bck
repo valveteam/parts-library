@@ -11,4 +11,9 @@ K POWER REGUL
 F regulator\lm78xx.pdf
 $ENDCMP
 #
+$CMP VEML6030
+D Double JK, Set
+K TTL JK
+$ENDCMP
+#
 #End Doc Library
