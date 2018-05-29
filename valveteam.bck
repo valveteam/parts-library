@@ -1,10 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ARDUINO_MICRO_SHIELD
-D Arduino Micro shield
-K arduino, micro
-$ENDCMP
-#
 $CMP Arduino_Nano_R3
 D Arduino Nano, a programmable single-board microcontroller based on ATmega328
 K Atmel CMOS MCU SPI 8-bit
@@ -17,6 +12,12 @@ K TTL JK
 $ENDCMP
 #
 $CMP STR05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP TR_SERIES
 D Linear Regulator +5V
 K POWER REGUL
 F regulator\lm78xx.pdf
